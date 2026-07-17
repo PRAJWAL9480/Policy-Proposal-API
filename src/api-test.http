@@ -1,0 +1,18 @@
+### Create Customer
+POST http://localhost:8080/customers
+Content-Type: application/json
+
+{
+  "firstName": "Prajwal",
+  "lastName": "Madivalar",
+  "age": 23,
+  "panNumber": "ABCDE1234F",
+  "email": "prajwal@gmail.com",
+  "mobileNumber": "9876543210",
+  "address": "Bangalore"
+}
+
+###
+
+### Get All Customers
+GET http://localhost:8080/customers
